@@ -1,2 +1,14 @@
 @import "tailwindcss";
 
+:root {
+  --font-manrope: "Manrope", sans-serif;
+  --font-roboto: "Roboto", sans-serif;
+}
+
+.font-manrope {
+  font-family: var(--font-manrope);
+}
+
+.font-roboto {
+  font-family: var(--font-roboto);
+}
