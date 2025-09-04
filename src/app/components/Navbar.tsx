@@ -30,7 +30,7 @@ function Navbar() {
 
         {/* Hamburger - shows on mobile + tablet */}
         <button
-          className="lg:hidden"
+          className="lg:hidden ml-50 md:ml-96 "
           onClick={() => setIsOpen(!isOpen)}
           aria-label="Toggle menu"
         >
@@ -40,7 +40,7 @@ function Navbar() {
 
       {/* Mobile + Tablet Dropdown */}
       {isOpen && (
-        <ul className="flex flex-col gap-5 items-center bg-white p-5 lg:hidden">
+        <ul className="flex flex-col gap-5 items-center  bg-white p-5 lg:hidden">
           <li className="cursor-pointer">Services</li>
           <li className="cursor-pointer">How it works</li>
           <li className="cursor-pointer">Why is different</li>
