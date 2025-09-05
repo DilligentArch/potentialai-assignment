@@ -6,6 +6,8 @@ import TrustedByCompanies from "./components/TrustedByCompanies";
 
 
 
+
+
 export default function Home() {
   return (
     <div>
@@ -13,6 +15,7 @@ export default function Home() {
      <Hero></Hero>
      <TrustedByCompanies></TrustedByCompanies>
      <AboutCasa></AboutCasa>
+     
     </div>
   )
 }
