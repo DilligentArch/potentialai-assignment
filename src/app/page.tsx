@@ -2,7 +2,9 @@ import AboutCasa from "./components/AboutCasa";
 import Head from "./components/Head";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
+import Reviews from "./components/Reviews";
 import TrustedByCompanies from "./components/TrustedByCompanies";
+import WhyCasaDiffernent from "./components/WhyCasaDiffernent";
 
 
 
@@ -17,6 +19,8 @@ export default function Home() {
      <TrustedByCompanies></TrustedByCompanies>
      <AboutCasa></AboutCasa>
      <HowItWorks></HowItWorks>
+     <WhyCasaDiffernent></WhyCasaDiffernent>
+     <Reviews></Reviews>
      
      
     </div>
