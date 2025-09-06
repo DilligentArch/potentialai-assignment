@@ -40,7 +40,7 @@ function BalanceCard() {
 
                     <div className="rounded-2xl p-4 bg-[#DAFFC2] mt-3 flex items-center justify-center sm:justify-between">
                         <p className="font-semibold text-sm">See detail</p>
-                        <Image src={"/vector.png"} alt="arrow" width={15} height={20} className="ml-2 sm:ml-0" />
+                        <Image src={"/Vector.png"} alt="arrow" width={15} height={20} className="ml-2 sm:ml-0" />
                     </div>
                 </div>
             </div>

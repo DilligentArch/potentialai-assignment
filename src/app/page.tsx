@@ -1,5 +1,6 @@
 import AboutCasa from "./components/AboutCasa";
 import BottomHero from "./components/BottomHero";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Head from "./components/Head";
 import Hero from "./components/Hero";
@@ -16,7 +17,7 @@ import WhyCasaDiffernent from "./components/WhyCasaDiffernent";
 
 export default function Home() {
   return (
-    <div>
+    <div className="max-w-screen-2xl mx-auto">
      <Head></Head>
      <Hero></Hero>
      <TrustedByCompanies></TrustedByCompanies>
@@ -25,6 +26,7 @@ export default function Home() {
      <WhyCasaDiffernent></WhyCasaDiffernent>
      <Reviews></Reviews>
      <Priceing></Priceing>
+     <Contact></Contact>
      <BottomHero></BottomHero>
      <Footer></Footer>
 

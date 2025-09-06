@@ -20,7 +20,7 @@ export default function ReUsableLowerCard({ t1, t2, t3, t4, padding }: ReUsableL
         </p>
       <div className="flex justify-left gap-3 items-center mt-4 md:mt-5 ">
         <div className="rounded-full p-2 md:p-2 bg-green-200 flex items-center justify-center">
-          <Image src={'/vectorClick.png'} alt="Vector Click" width={12} height={12} />
+          <Image src={'/VectorClick.png'} alt="Vector Click" width={12} height={12} />
         </div>
         <p className="text-[#686868] font-semibold text-sm md:text-base lg:text-base">
          {t3}
@@ -28,7 +28,7 @@ export default function ReUsableLowerCard({ t1, t2, t3, t4, padding }: ReUsableL
       </div>
       <div className="flex justify-left gap-3 items-center mt-4 md:mt-5">
         <div className="rounded-full p-2 md:p-2 bg-green-200 flex items-center justify-center">
-          <Image src={'/vectorClick.png'} alt="Vector Click" width={12} height={12} />
+          <Image src={'/VectorClick.png'} alt="Vector Click" width={12} height={12} />
         </div>
         <p className="text-[#686868] font-semibold text-sm md:text-base lg:text-base">
          {t4}

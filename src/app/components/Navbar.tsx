@@ -8,9 +8,9 @@ function Navbar() {
 
   return (
     <nav className="w-full shadow-md">
-      <div className="flex items-center justify-center p-5 max-w-7xl mx-auto gap-10 ">
+      <div className="flex items-center justify-between p-5 max-w-7xl mx-auto gap-10 ">
         
-        <Image src="/CasaLogo.png" alt="Logo" width={90} height={60} />
+        <Image src={"/Casalogo.png"} alt="Logo" width={90} height={60} />
 
       
         <ul className="hidden lg:flex gap-10 items-center">

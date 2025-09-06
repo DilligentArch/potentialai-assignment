@@ -1,0 +1,53 @@
+import Image from 'next/image'
+import React from 'react'
+
+function SalesOverviewCard() {
+ return (
+     
+     <div className="w-11/12 mx-auto md:w-7/12   border border-gray-100 rounded-xl pt-5 pb-10 ">
+       <div className="mx-auto p-4 rounded-xl mt-5 bg-[#E0F0E5] h-auto pb-27">
+         <div className="rounded-2xl p-4  mt-5 flex flex-col sm:flex-row items-center sm:justify-start gap-4 sm:gap-2 md:w-[307px] mx-auto ">
+           <div className="rounded-full bg-[#BFE5A6] p-3 flex items-center justify-center">
+             <Image src={"/layer.png"} alt="balance" width={17} height={15} className='md:w-10 lg:w-6' />
+           </div>
+ 
+           <div className="text-center sm:text-left">
+             <h2 className="  md:text-2xl sm:text-lg font-roboto font-semibold">
+              Sales overview from Previous Day
+             </h2>
+        
+           </div>
+         </div>
+ 
+         <div className=" rounded-xl mt-5 bg-white my-10 ">
+           <div className="rounded-2xl p-4 bg-white flex flex-col sm:flex-row items-center sm:justify-center gap-4 sm:gap-2 ">
+             <div className="rounded-full p-2 bg-[#0F4E23]">
+               <Image src={"/ZigzagIcon.png"} alt="balance" width={20} height={20} />
+             </div>
+ 
+             <div className="text-center sm:text-left">
+               <p className="text-[#686868] text-2xl">Total sales :</p>
+             </div>
+ 
+             <h1 className="text-2xl lg:text-4xl font-bold text-[#686868] sm:ml-auto font-roboto mt-2 sm:mt-0">
+               $12,500
+             </h1>
+           </div>
+ 
+           <div className="w-11/12 mx-auto">
+            
+             <Image
+               src={"/Salesreport.png"}
+               alt="graph"
+               width={200}
+               height={200}
+               className="w-full max-w-[300px] h-auto mt-3"
+             />
+           </div>
+         </div>
+       </div>
+     </div>
+   )
+}
+
+export default SalesOverviewCard

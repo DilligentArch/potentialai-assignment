@@ -43,7 +43,7 @@ function Priceing() {
                             {/* 1 */}
                             <div className="flex items-center gap-2 sm:gap-3 mt-4 justify-center sm:justify-start">
                                 <div className="rounded-full p-2 bg-[#F1F68E]">
-                                    <Image src={'/vectorClick.png'} alt="Vector Click" width={16} height={16} />
+                                    <Image src={'/VectorClick.png'} alt="Vector Click" width={16} height={16} />
                                 </div>
                                 <p className="text-[#686868] text-base sm:text-lg font-semibold font-roboto">
                                     Instant Fund Transfers
@@ -53,7 +53,7 @@ function Priceing() {
                             {/* 2 */}
                             <div className="flex items-center gap-2 sm:gap-3 mt-4 justify-center sm:justify-start">
                                 <div className="rounded-full p-2 bg-[#F1F68E]">
-                                    <Image src={'/vectorClick.png'} alt="Vector Click" width={16} height={16} />
+                                    <Image src={'/VectorClick.png'} alt="Vector Click" width={16} height={16} />
                                 </div>
                                 <p className="text-[#686868] text-base sm:text-lg font-semibold font-roboto">
                                     Real-time Transaction Monitoring
@@ -63,7 +63,7 @@ function Priceing() {
                             {/* 3 */}
                             <div className="flex items-center gap-2 sm:gap-3 mt-4 justify-center sm:justify-start">
                                 <div className="rounded-full p-2 bg-[#F1F68E]">
-                                    <Image src={'/vectorClick.png'} alt="Vector Click" width={16} height={16} />
+                                    <Image src={'/VectorClick.png'} alt="Vector Click" width={16} height={16} />
                                 </div>
                                 <p className="text-[#686868] text-base sm:text-lg font-semibold font-roboto">
                                     Seamless POS Integration
@@ -73,7 +73,7 @@ function Priceing() {
                             {/* 4 */}
                             <div className="flex items-center gap-2 sm:gap-3 mt-4 justify-center sm:justify-start">
                                 <div className="rounded-full p-2 bg-[#F1F68E]">
-                                    <Image src={'/vectorClick.png'} alt="Vector Click" width={16} height={16} />
+                                    <Image src={'/VectorClick.png'} alt="Vector Click" width={16} height={16} />
                                 </div>
                                 <p className="text-[#686868] text-base sm:text-lg font-semibold font-roboto">
                                     24/7 Customer Support
