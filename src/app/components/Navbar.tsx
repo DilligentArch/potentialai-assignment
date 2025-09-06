@@ -9,10 +9,10 @@ function Navbar() {
   return (
     <nav className="w-full shadow-md">
       <div className="flex items-center justify-center p-5 max-w-7xl mx-auto gap-10 ">
-        {/* Logo */}
+        
         <Image src="/CasaLogo.png" alt="Logo" width={90} height={60} />
 
-        {/* Desktop Menu - only shows on large screens */}
+      
         <ul className="hidden lg:flex gap-10 items-center">
           <li className="cursor-pointer">Services</li>
           <li className="cursor-pointer">How it works</li>
@@ -28,7 +28,7 @@ function Navbar() {
           </li>
         </ul>
 
-        {/* Hamburger - shows on mobile + tablet */}
+        
         <button
           className="lg:hidden ml-50 md:ml-96 "
           onClick={() => setIsOpen(!isOpen)}
@@ -38,7 +38,7 @@ function Navbar() {
         </button>
       </div>
 
-      {/* Mobile + Tablet Dropdown */}
+    
       {isOpen && (
         <ul className="flex flex-col gap-5 items-center  bg-white p-5 lg:hidden">
           <li className="cursor-pointer">Services</li>

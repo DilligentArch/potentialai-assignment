@@ -1,4 +1,6 @@
 import AboutCasa from "./components/AboutCasa";
+import BottomHero from "./components/BottomHero";
+import Footer from "./components/Footer";
 import Head from "./components/Head";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
@@ -23,6 +25,8 @@ export default function Home() {
      <WhyCasaDiffernent></WhyCasaDiffernent>
      <Reviews></Reviews>
      <Priceing></Priceing>
+     <BottomHero></BottomHero>
+     <Footer></Footer>
 
     </div>
   )
